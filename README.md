@@ -24,6 +24,8 @@ Robin Mordasiewicz employee of F5 is a Sales Engineer responsible for presenting
 
 F5 Distributed Cloud is one of the largest most advanced CSP, providing multi-cloud networking, high performance network DDoS, WebApp and API protections, Advanced Bot Protection, containerized workload management, over the internet or within your private networks, and connected to all the major Network as a Service providers, packet Fabric, Megaport.
 
+Cloud providers Emphasize connectivity over security, at F5 we have a pedigree in security software.
+
 ## F5 Distributed Cloud versus Akamai
 
 F5 Distributed Cloud and Akamai are competitors in CDN technology as well as advanced edge security, and distributed computing. F5 Distributed Cloud is ostenisbly one of the largest service providers on the planet with more BGP peers (5,445) than the other cloud service providers combined. More BGP peers are important in shortening the path, providing multiple paths, bypassing slow or expensive transit providers, and improved performance through network health and visibility. F5 Distributed cloud has 31 PoPs which are located in every major region around the world, which are all colocated in Equinex Metal locations. Akamai takes a different approach, rather than leveraging BGP peers, they have built 4,100 PoPs (Points of Presence). Where F5 Distributed Cloud has taken the approach of using BGP to build the most robust cloud service provider network, Akamai's business is focused on building real estate.
@@ -84,18 +86,32 @@ After applying the Bot Policy, launch a simulated attack using a testing tool su
 
 ![Deployment Options](./images/cdn.png)
 
+When implementing a significant change there needs to be care taken into consideration when planning out an implementation.
+
+1. Multi-CDN Networking
+
+2. Multi-Cloud Networking
+
+* The ideal service would provide a low-latency connection, with adequate throughput, to consume the storage service. This would include using services like DirectConnect for AWS, ExpressRoute for Azure, and Cloud Interconnect for GCP.
+
+3. Branch Office/Retail
+
+  * AppStack
+
 ## Shift Left Security
 
-### 
+![Shift Left Security](./images/shift-left-security.png)
 
-When implementing a significant change
+Shift Left is a practice intended to find and prevent defects early in the software delivery process. The idea is to improve quality by moving tasks to the left as early in the lifecycle as possible. Shift Left testing means testing earlier in the software development process, and this lends itself to adopting DevOps practices
+
+###  
+
 
 
 F5 Bot Defense
  - deploy VIP
  - configure policy
 MCN
-  -  The ideal service would provide a low-latency connection, with adequate throughput, to consume the storage service. This would include using services like DirectConnect for AWS, ExpressRoute for Azure, and Cloud Interconnect for GCP.
 Private link
   -
 AppAstack - branch/retail
@@ -105,7 +121,6 @@ Multi-CDN
 Terraform
 CICD
 
-Cloud providers Emphasizie connectivity over security
 
 
 * https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense#connectors
