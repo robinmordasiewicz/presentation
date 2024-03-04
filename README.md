@@ -6,7 +6,23 @@ This is a 30 minute presentation delivered by F5 employee Robin Mordasiewicz wit
 
 ## Background
 
-In a previous meeting the ACME Corp employee with the job title "IT Manager", Robert Loblaw, who is responsible for maintaining the ACME Corp website https://www.acmecorp.com, met with the F5 employee Robin Mordasiewicz who's job title is Sales Engineer and is repsonsible for selling the F5 Distributed Cloud product.. During the meeting Robert explained to Robin that a security audit of the ACME Corp website https://www.acmecorp.com revealed that the website is currently experiencing a credential stuffing attack. Robert also explained to Robin that the current architecture of the ACME Corp website is using the Akamai Content Delivery Network (CDN), with the additional subscription of the Akamai Web Application Firewall (WAF) product named Kona. Robert has learned that the Akamai Kona product does not protect against credential stuffing attacks, and that in order for Akamai to prevent credential stuffing attacks, Robert would need the purchase of an addition product subscription named Akamai Bot Manager. Robert has invited Robin to present a competetive offering from F5 Distributed Cloud in the hopes that the F5 Distributed Cloud product is more fully featured. Furthermore, Robert explained that the Akamai CDN load balances to origin servers that are hosted in AWS, and the origin servers hosting the website content are also connected to an on premisis datacenter using DirectConnect for database access, and that future plans to be considered are that the ACME Corp website will also expand to be running in both AWS and Azure.
+* In a previous meeting the ACME Corp employee named Robert Loblaw with the job title "IT Manager", met with F5 employee Robin Mordasiewicz who has a job title "Sales Engineer", and specializes in presenting and selling the F5 Distributed Cloud product. In the previous meeting Robert, who is responsible for maintaining the ACME Corp website https://www.acmecorp.com, explained to Robin that a security audit of the ACME Corp website revealed that there is currently an ongoing credential stuffing attack, which is leading to signifiant revenue loss and reputation damages.
+
+* Robert also explained to Robin that the current architecture of the ACME Corp website is using the Akamai Content Delivery Network (CDN), with the additional subscription of the Akamai Web Application Firewall (WAF) product named Kona. Robert has learned that the Akamai Kona product does not protect against credential stuffing attacks, and that in order for Akamai to prevent credential stuffing attacks, Robert would need to purchase an additional Akamai product subscription named Akamai Bot Manager. Furthermore, Robert explained that the Akamai CDN load balances to origin servers that are hosted in AWS, and the origin servers that are in AWS which are hosting the website content are also connected to an on premisis datacenter using DirectConnect for database access, and that future plans to be considered are that the ACME Corp website will also expand to be running in both AWS and Azure.
+
+* Robert has invited Robin to present a competetive Bot Protection product from F5 Distributed Cloud in the hopes that the F5 Distributed Cloud product is more fully featured and easier to use. Robert asked Robin to present the F5 Distributed Cloud Bot Protection functionality as well as the additional value add features that the F5 Distributed Cloud product can help with modernizing the ACME Corp website, specifically around multi-cloud networking.
+
+* What follows is the content for an F5 Distributed Cloud presentation focusing on credential stuffing attacks, that Robin will present to Robert.
+
+## Introduction
+
+Robin Mordasiewicz employee of F5 is a Sales Engineer responsible for presenting and selling F5 Distributed Cloud solutions to potential customer Robert Loblaw, employee of ACME Corp Solutions who is a IT Manager and responsible for maintaining the ACME Corp website https://www.acmecorp.com. Robin will present the following content to Robert.
+
+## F5 Platform
+
+![F5 Platform](./images/f5-distributed-cloud-diagram.png)
+
+F5 Distributed Cloud is one of the largest most advanced CSP, providing multi-cloud networking, high performance network DDoS, WebApp and API protections, Advanced Bot Protection, containerized workload management, over the internet or within your private networks, and connected to all the major Network as a Service providers, packet Fabric, Megaport.
 
 ## F5 Distributed Cloud versus Akamai
 
@@ -56,14 +72,19 @@ After logging in to the F5 Distributed Cloud console, and enabling Advanced Bot 
 
 ![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/create-policy.png)
 
-
 It's a best practice to enable Bot Defense on sensitive URL's such as a login form, but you can use regex to identify patterns in sensitive URLs
 
 3. Bot Defense Reporting
 
 ![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/bot-defense-reporting.png)
 
-After everything is configured, you will want to launch attacks using a testing tool such as Selenium, and then view the analytics in the F5 Distributed Cloud portal.
+After applying the Bot Policy, launch a simulated attack using a testing tool such as Selenium, and then view the analytics in the F5 Distributed Cloud portal.
+
+## Deployment Options
+
+
+
+When implementing a significant change
 
 
 F5 Bot Defense
