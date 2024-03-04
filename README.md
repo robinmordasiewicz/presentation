@@ -82,7 +82,11 @@ After applying the Bot Policy, launch a simulated attack using a testing tool su
 
 ## Deployment Options
 
+![Deployment Options](./images/cdn.png)
 
+## Shift Left Security
+
+### 
 
 When implementing a significant change
 
