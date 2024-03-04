@@ -1,4 +1,6 @@
-# Protecting against credential stuffing attacks using F5 Distributed Cloud presentation
+# F5 Distributed Cloud
+
+## Credential Stuffing Attacks
 
 This is a 30 minute presentation delivered by F5 employee Robin Mordasiewicz with job title Sales Engineer, which specializes in the F5 Distributed Cloud product. The audience is the ACME Corp employee Robert Loblaw whose job title is "IT Manager".
 
