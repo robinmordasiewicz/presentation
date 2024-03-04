@@ -10,7 +10,7 @@ In a previous meeting the ACME Corp employee with the job title "IT Manager", Ro
 
 F5 Distributed Cloud and Akamai are competitors in CDN technology as well as advanced edge security, and distributed computing. F5 Distributed Cloud is ostenisbly one of the largest service providers on the planet with more BGP peers (5,445) than the other cloud service providers combined. More BGP peers are important in shortening the path, providing multiple paths, bypassing slow or expensive transit providers, and improved performance through network health and visibility. F5 Distributed cloud has 31 PoPs which are located in every major region around the world, which are all colocated in Equinex Metal locations. Akamai takes a different approach, rather than leveraging BGP peers, they have built 4,100 PoPs (Points of Presence). Where F5 Distributed Cloud has taken the approach of using BGP to build the most robust cloud service provider network, Akamai's business is focused on building real estate.
 
-With F5 Distributed Cloud all additional software subscriptions features such as Web App and API protections, containerized workloads distribution, intelligent DNS etc. are built natively into the platform, whereas Akamai has acquired many different products that operate independantly each with their own account management, administration interface and disconnected managemnt API's. The only exception is that the F5 Distributed Cloud Bot Defense, which provides security to protect a website from bots, fake users, and unauthorized transactions, is a service that is made available through competitors product such as AWS CloudFront, Cloudflare, our BIG-IP product line, or other competitors products. F5 Distributed Cloud provides a single pane of glass UI and API management, unified RBAC across all features, and a consistent feature set across all Regional Edges.
+With F5 Distributed Cloud all additional software subscriptions features such as Web App and API protections, containerized workloads distribution, intelligent DNS etc. are built natively into the platform, whereas Akamai has acquired many different products that operate independantly each with their own account management, administration interface and disconnected managemnt API's. The only exception is that the F5 Distributed Cloud Bot Defense, which provides security to protect a website from bots, fake users, and unauthorized transactions, is a service that is made available through competitors product such as AWS CloudFront, [Cloudflare](https://www.youtube.com/watch?v=eg9jke6uOLE), our BIG-IP product line, or other competitors products. F5 Distributed Cloud provides a single pane of glass UI and API management, unified RBAC across all features, and a consistent feature set across all Regional Edges.
 
 ### F5 Distributed Cloud
 
@@ -38,13 +38,22 @@ Cloud Firewall
 
 F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading Bot Protection features including credential stuffing attack, fake account, fraud, application layer DDoS, and financial aggregator protection.
 
-![F5 Distributed Cloud Bot Dense Gartner Peer Review](./images/gartner-peer-report.png)
-
 ### Ease of Use
 
+![F5 Distributed Cloud Bot Dense Gartner Peer Review](./images/gartner-peer-report.png)
+
+F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly becuase of the ease of use, since all of the UI and API management is a single consolidated interface.
+
+### Enabling Bot Defense Workflow
+
+![
 After logging in to the F5 Distributed Cloud console, and enabling Advanced Bot Defense, you will find the security features natively integrated into the HTTP load balancer. There is no additional portal to log into, everything is integrated into a single consolidated cloud native platform.
 
-#### 
+It's a best practice to enable Bot Defense on sensitive URL's such as a login form, but you can use regex to identify patterns in sensitive URLs
+
+### Results
+
+After everything is configured, you will want to launch attacks using a testing tool such as Selenium, and then view the analytics in the F5 Distributed Cloud portal.
 
 
 F5 Bot Defense
@@ -62,3 +71,6 @@ Terraform
 CICD
 
 Cloud providers Emphasizie connectivity over security
+
+
+* https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense#connectors
