@@ -34,9 +34,11 @@ Cloud Firewall
 
 ## F5 Distributed Cloud Bot Defense
 
-[F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
+![F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
 
-F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading product features.
+F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading Bot Protection features including credential stuffing attack, fake account, fraud, application layer DDoS, and financial aggregator protection.
+
+![F5 Distributed Cloud Bot Dense Gartner Peer Review](./images/gartner-peer-review.png)
 
 ### Ease of Use
 
