@@ -34,18 +34,17 @@ Cloud Firewall
 
 ## F5 Distributed Cloud Bot Defense
 
-In summary our Bot Defense product is an anti automation product, that uses JavaScript and API calls to collect telemetry 
+[F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
+
+F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading product features.
 
 ### Ease of Use
 
-For applications already routing traffic through Distributed Cloud Mesh Service, Bot Defense is natively integrated into your Distributed Cloud Mesh HTTP load balancers. This integration allows you to configure the Bot Defense service through the HTTP load balancer's configuration in the Distributed Cloud Console.
+After logging in to the F5 Distributed Cloud console, and enabling Advanced Bot Defense, you will find the security features natively integrated into the HTTP load balancer. There is no additional portal to log into, everything is integrated into a single consolidated cloud native platform.
 
-After logging in to the F5 Distributed Cloud console, and enabling Advanced Bot Protection, the additional security settings appear as features on the HTTP Loadbalancer. The Load Balancer object in F5 Distributed Cloud is the processor where all security features
+#### 
 
 
-Intro
-
-Akamai versus F5
 F5 Bot Defense
  - deploy VIP
  - configure policy
