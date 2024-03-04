@@ -32,23 +32,23 @@ With F5 Distributed Cloud all additional software subscriptions features such as
 
 ### F5 Distributed Cloud
 
-31 PoPs (Points of Presence)
-5,445 BGP Peers - https://bgp.he.net/report/peers
-Bot Defense
+* 31 PoPs (Points of Presence)
+* [5,445 BGP Peers](https://bgp.he.net/report/peers)
+* Bot Defense
 
 ### Akamai
 
-4,100 PoPs (Points of Presence)
-1,044 BGP Peers
-Bot Manager
-Linode
-Kona
-Edge DNS
-Prolexic
-API Security
-APP & API Protector
-Acount Protector
-Cloud Firewall
+* 4,100 PoPs (Points of Presence)
+* 1,044 BGP Peers
+* Bot Manager
+* Linode
+* Kona
+* Edge DNS
+* Prolexic
+* API Security
+* APP & API Protector
+* Acount Protector
+* Cloud Firewall
 
 ## F5 Distributed Cloud Bot Defense
 
