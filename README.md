@@ -40,18 +40,26 @@ F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaSc
 
 ### Ease of Use
 
-![F5 Distributed Cloud Bot Dense Gartner Peer Review](./images/gartner-peer-report.png)
+![F5 Distributed Cloud Bot Defense Gartner Peer Review](./images/gartner-peer-report.png)
 
 F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly becuase of the ease of use, since all of the UI and API management is a single consolidated interface.
 
-### Enabling Bot Defense Workflow
+1. Enable Bot Defense
 
-![
+![F5 Distributed Cloud Bot Defense Enable Bot Defense](./images/bot-protection-enable.png)
+
 After logging in to the F5 Distributed Cloud console, and enabling Advanced Bot Defense, you will find the security features natively integrated into the HTTP load balancer. There is no additional portal to log into, everything is integrated into a single consolidated cloud native platform.
+
+2. Create Bot Policy
+
+![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/create-policy.png)
+
 
 It's a best practice to enable Bot Defense on sensitive URL's such as a login form, but you can use regex to identify patterns in sensitive URLs
 
-### Results
+3. Bot Defense Reporting
+
+![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/bot-defense-reporting.png)
 
 After everything is configured, you will want to launch attacks using a testing tool such as Selenium, and then view the analytics in the F5 Distributed Cloud portal.
 
