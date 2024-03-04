@@ -2,21 +2,21 @@
 
 ## Credential Stuffing Attacks
 
-This is a 30 minute presentation delivered by F5 employee Robin Mordasiewicz with job title Sales Engineer, which specializes in the F5 Distributed Cloud product. The audience is the ACME Corp employee Robert Loblaw whose job title is "IT Manager".
+Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentation on the F5 Distributed Cloud product. The intended audience is Robert Loblaw, the IT Manager at ACME Corp.
 
 ## Background
 
-* In a previous meeting the ACME Corp employee named Robert Loblaw with the job title "IT Manager", met with F5 employee Robin Mordasiewicz who has a job title "Sales Engineer", and specializes in presenting and selling the F5 Distributed Cloud product. In the previous meeting Robert, who is responsible for maintaining the ACME Corp website https://www.acmecorp.com, explained to Robin that a security audit of the ACME Corp website revealed that there is currently an ongoing credential stuffing attack, which is leading to signifiant revenue loss and reputation damages.
+* In a previous meeting, Robert Loblaw, the IT Manager at ACME Corp, met with Robin Mordasiewicz, a Sales Engineer from F5 who specializes in the F5 Distributed Cloud product. During this meeting, Robert, who oversees the maintenance of the ACME Corp website (https://www.acmecorp.com), informed Robin about a security audit that uncovered an ongoing credential stuffing attack on their site. This attack is causing significant revenue loss and damage to their reputation.
 
-* Robert also explained to Robin that the current architecture of the ACME Corp website is using the Akamai Content Delivery Network (CDN), with the additional subscription of the Akamai Web Application Firewall (WAF) product named Kona. Robert has learned that the Akamai Kona product does not protect against credential stuffing attacks, and that in order for Akamai to prevent credential stuffing attacks, Robert would need to purchase an additional Akamai product subscription named Akamai Bot Manager. Furthermore, Robert explained that the Akamai CDN load balances to origin servers that are hosted in AWS, and the origin servers that are in AWS which are hosting the website content are also connected to an on premisis datacenter using DirectConnect for database access, and that future plans to be considered are that the ACME Corp website will also expand to be running in both AWS and Azure.
+* Robert also shared with Robin that ACME Corp's website currently utilizes the Akamai Content Delivery Network (CDN), complemented by a subscription to the Akamai Web Application Firewall (WAF) product known as Kona. However, Robert discovered that the Akamai Kona WAF does not offer protection against credential stuffing attacks. To counter such attacks, an additional subscription to the Akamai Bot Manager product is necessary. Additionally, Robert mentioned that the Akamai CDN distributes traffic to origin servers hosted on AWS. These AWS-hosted origin servers, which serve the website's content, are also linked to an on-premises data center via DirectConnect for database access. Looking ahead, there are plans to expand the ACME Corp website's infrastructure to operate on both AWS and Azure platforms.
 
-* Robert has invited Robin to present a competetive Bot Protection product from F5 Distributed Cloud in the hopes that the F5 Distributed Cloud product is more fully featured and easier to use. Robert asked Robin to present the F5 Distributed Cloud Bot Protection functionality as well as the additional value add features that the F5 Distributed Cloud product can help with modernizing the ACME Corp website, specifically around multi-cloud networking.
+* Robert has invited Robin to introduce a competitive Bot Protection product from F5 Distributed Cloud, hoping it offers more comprehensive features and is more user-friendly than their current solution. He has requested Robin to showcase the Bot Protection capabilities of the F5 Distributed Cloud, along with any additional value-added features that could aid in modernizing the ACME Corp website, particularly in the area of multi-cloud networking.
 
-* What follows is the content for an F5 Distributed Cloud presentation focusing on credential stuffing attacks, that Robin will present to Robert.
+* The following is the content of an F5 Distributed Cloud presentation, prepared by Robin, that focuses on credential stuffing attacks. This presentation will be delivered to Robert.
 
 ## Introduction
 
-Robin Mordasiewicz employee of F5 is a Sales Engineer responsible for presenting and selling F5 Distributed Cloud solutions to potential customer Robert Loblaw, employee of ACME Corp Solutions who is a IT Manager and responsible for maintaining the ACME Corp website https://www.acmecorp.com. Robin will present the following content to Robert.
+* Robin Mordasiewicz, a Sales Engineer at F5, is responsible for showcasing and selling F5 Distributed Cloud solutions to potential clients. One such client is Robert Loblaw, an IT Manager at ACME Corp Solutions, who oversees the maintenance of the ACME Corp website (https://www.acmecorp.com). Robin will present the following content to Robert.
 
 ## F5 Platform
 
