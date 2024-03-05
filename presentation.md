@@ -66,11 +66,13 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 
 * F5 Distributed Cloud Bot Defense is an anti-automation solution that employs JavaScript and API calls for telemetry collection. Both Akamai and F5 offer leading bot protection features, including defenses against credential stuffing, fake accounts, fraud, application layer DDoS, and financial aggregator threats.
 
+* Commonly used mitigations to combat credential stuffing, including CAPTCHA and multi-factor authentication (MFA), are easily bypassed by sophisticated attackers and can frustrate real customers, leading to abandoned transactions and lost revenue. Additionally, credential stuffing attacks are often an early indicator that there will be other more sophisticated attacks launched.
+
 1. Enable Bot Defense
 
 ![F5 Distributed Cloud Bot Defense Enable Bot Defense](./images/bot-protection-enable.png)
 
-* After logging into the F5 Distributed Cloud console and enabling Advanced Bot Defense, you'll find the security features integrated within the HTTP load balancer, eliminating the need for an additional portal and offering a unified, cloud-native platform experience. 
+* After logging into the F5 Distributed Cloud console and enabling Advanced Bot Defense, you'll find the security features integrated within the HTTP load balancer, eliminating the need for an additional portal and offering a unified, cloud-native platform experience.
 
 2. Create Bot Policy
 
