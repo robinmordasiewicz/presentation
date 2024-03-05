@@ -52,17 +52,17 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 * Acount Protector
 * Cloud Firewall
 
-## F5 Distributed Cloud Bot Defense
-
-![F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
-
-F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading Bot Protection features including credential stuffing attack, fake account, fraud, application layer DDoS, and financial aggregator protection.
-
 ### Ease of Use
 
 ![F5 Distributed Cloud Bot Defense Gartner Peer Review](./images/gartner-peer-report.png)
 
 F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly becuase of the ease of use, since all of the UI and API management is a single consolidated interface.
+
+## F5 Distributed Cloud Bot Defense
+
+![F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
+
+F5 Distributed Cloud Bot Defense is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading Bot Protection features including credential stuffing attack, fake account, fraud, application layer DDoS, and financial aggregator protection.
 
 1. Enable Bot Defense
 
@@ -86,7 +86,7 @@ After applying the Bot Policy, launch a simulated attack using a testing tool su
 
 ![Deployment Options](./images/single-cdn-akamai.png)
 
-  * Currently the ACME Corp website is using Akamai, which then load-balances to origin servers that are running in a VPC. The origin servers that are located in AWS are coneted with a low-latency DirectConnect, to consume the database services running on prem.
+  * Currently the ACME Corp website is using Akamai, which then load-balances to origin servers that are running in a VPC. The origin servers that are located in AWS are connected with a low-latency DirectConnect, to consume the database services running on prem.
 
   * When implementing a significant change there needs to be care taken into consideration when planning out an implementation. Currently the ACME Corp website has a static DNS record which resolves to an Akamai anycast IP address. The challenge is, "How is it possible to introduce F5 Distributed Cloud without making any disruptive changes that might cause downtime".
 
@@ -119,6 +119,8 @@ An F5 Distributed Cloud instance can also be deployed as a managed kubernetes pl
 ![Shift Left Security](./images/shift-left-security.png)
 
 Shift Left is a practice intended to find and prevent defects early in the software delivery process. The idea is to improve quality by moving tasks to the left as early in the lifecycle as possible. Shift Left testing means testing earlier in the software development process, and this lends itself to adopting DevOps practices
+
+### 
 
 ###  
 
