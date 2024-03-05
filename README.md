@@ -112,7 +112,7 @@ The F5 Distributed Cloud software that runs in the Equinex Regional Edge locatio
 
 ![AppStack Managed Kubernetes](./images/appstack-managed-kubernetes.png)
 
-An F5 Distributed Cloud instance can also be deployed as a managed kubernetes platform either as a virtual machine or onto bare metal. Appstack managed kubernetes is able to leverage high performance GPU in public cloud, or even when its deployed into hardware in remote locations or retail space. Computationally intensive containerized workloads running in Appstack managed kubernetes can leverage GPU's. One example is that many organizations are deploying privately available AI service which are running open source LLM's.
+An F5 Distributed Cloud instance can also be deployed as a managed kubernetes platform either as a virtual machine or onto bare metal. Appstack managed kubernetes is able to leverage high performance GPU in public cloud, or even when its deployed into hardware in remote locations or retail space. Computationally intensive containerized workloads running in Appstack managed kubernetes can leverage GPU's. One example is that many organizations are now purchasing and deploying tons of GPU for use with running privately available AI service which are running open source LLM's.
 
 ## Shift Left Security
 
