@@ -140,8 +140,6 @@ The F5 Distributed Cloud platform can be automated using the REST API, either di
 
 ### CLI vesctl
 
-![vesctl cli](./images/vesctl.png)
-
 * The [vesctl](https://gitlab.com/volterra.io/vesctl/blob/main/README.md) tool is a configuration command line utility that allows users to create, debug and diagnose F5 Distributed Cloud Services configuration. It is modelled after the F5 Distributed Cloud API. All F5 Distributed Cloud commands are available via vesctl.
 
 ## References
