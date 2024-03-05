@@ -106,13 +106,17 @@ A unique feature of the F5 Distributed Cloud platform which is not available fro
 
 ![appstack](./images/appstack-vpc.png)
 
-The F5 Distributed Cloud software that runs in the Equinex Regional Edge locations, can be deployed as a virtual machine into your VPC's, which can eliminate the need for complex transit gateways, expensive and complex firewall virtual machines. The Appstack instances form redundant encrypted tunnels with the F5 Distributed Cloud Regional Edges bypassing the requirement to have the VPC to expose public IP addresses natting towards origin servers.
+  * The F5 Distributed Cloud software that runs in the Equinex Regional Edge locations, can be deployed as a virtual machine into your VPC's, which can eliminate the need for complex transit gateways, expensive and complex firewall virtual machines. The Appstack instances form redundant encrypted tunnels with the F5 Distributed Cloud Regional Edges bypassing the requirement to have the VPC to expose public IP addresses natting towards origin servers.
+
+  * IP Overlap is often a challenge: With F5 Distributed Cloud Appstack proxies, we can service all the Masqueriding and NAT requirements.
 
 4. Appstack Managed Kubernetes
 
 ![AppStack Managed Kubernetes](./images/appstack-managed-kubernetes.png)
 
 An F5 Distributed Cloud instance can also be deployed as a managed kubernetes platform either as a virtual machine or onto bare metal. Appstack managed kubernetes is able to leverage high performance GPU in public cloud, or even when its deployed into hardware in remote locations or retail space. Computationally intensive containerized workloads running in Appstack managed kubernetes can leverage GPU's. One example is that many organizations are now purchasing and deploying tons of GPU for use with running privately available AI service which are running open source LLM's.
+
+  * The F5 Distributed Cloud Appstack Managed Kubernetes can be distributed across multiple physical or virtual locations. F5 fully manages the kubernetes stack, while the local Kubernetes administration remains the same, where an administrator can export a kubectl file, so the interaction with managed kubernetes does not change for devops teams, their existing workflows will continue to operate the same as long as they are given the kubectl authentication file.
 
 ## Shift Left Security
 
@@ -124,14 +128,21 @@ Shift Left is a practice intended to find and prevent defects early in the softw
 
 ![GitOps SDLC](./images/SDLC.png)
 
-* A GitOps workflow for shift-left security integrates automated security measures early in the development lifecycle by managing infrastructure and application configurations as code in Git.
+* A GitOps workflow for shift-left security integrates automated security measures early in the development lifecycle by managing infrastructure and application configurations as code in Git. An important aspect to having multiple developers is the ability to create multiple namespaces. Typically a namespace might be used to create departmental separation of resources, but its often used in the devlopement lifecycle. When a developer creates new feature branch in Git, and automation can be associated that will create a namespace of the same name as the git feature branch, and then all the CICD automated testing can run against the devlopement namespace, and when the pull request is approved, the automation will then destroy the git development branch as well as destroying the development namespace in F5 Distributed Cloud.
 
 ### Infrastructure as Code
 
 ![Infrastructure as Code](./images/terraform-provider.png)
 
+The whole F5 Distributed Cloud platform can be automated using the REST API, either directly using the RBAC enforced token authentication. Tokens can be incorporated into existing CICD pipelines. We have lots of Github repositories with terraform examples.
 
-* In order to facilitate an 
+### CLI vesctl
+
+![vesctl cli](./images/vesctl.png)
+
+* The [vesctl](https://gitlab.com/volterra.io/vesctl/blob/main/README.md) tool is a configuration command line utility that allows users to create, debug and diagnose F5 Distributed Cloud Services configuration. It is modelled after the F5 Distributed Cloud API. All F5 Distributed Cloud commands are available via vesctl.
+
+* The product was formerly known as Volterra, and is now known as F5 Distributed Cloud however there still remains references to the old Volterra product name.
 
 ### 
 
