@@ -136,7 +136,7 @@ Shift Left is a practice intended to find and prevent defects early in the softw
 
 ![Infrastructure as Code](./images/terraform-provider.png)
 
-The whole F5 Distributed Cloud platform can be automated using the REST API, either directly using the RBAC enforced token authentication. Tokens can be incorporated into existing CICD pipelines. We have lots of Github repositories with terraform examples.
+The F5 Distributed Cloud platform can be automated using the REST API, either directly using the RBAC enforced token authentication. Tokens can be incorporated into existing CICD pipelines. There are official F5 Github repositories with terraform examples for creating infrastructure as code.
 
 ### CLI vesctl
 
@@ -144,12 +144,6 @@ The whole F5 Distributed Cloud platform can be automated using the REST API, eit
 
 * The [vesctl](https://gitlab.com/volterra.io/vesctl/blob/main/README.md) tool is a configuration command line utility that allows users to create, debug and diagnose F5 Distributed Cloud Services configuration. It is modelled after the F5 Distributed Cloud API. All F5 Distributed Cloud commands are available via vesctl.
 
-* The product was formerly known as Volterra, and is now known as F5 Distributed Cloud however there still remains references to the old Volterra product name.
-
-### 
-
-###  
-
 ## References
 
-* https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense#connectors
+* https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense
