@@ -92,7 +92,7 @@ When implementing a significant change there needs to be care taken into conside
 
 2. Multi-Cloud Networking
 
-* The ideal service would provide a low-latency connection, with adequate throughput, to consume the storage service. This would include using services like DirectConnect for AWS, ExpressRoute for Azure, and Cloud Interconnect for GCP.
+  * The ideal service would provide a low-latency connection, with adequate throughput, to consume the storage service. This would include using services like DirectConnect for AWS, ExpressRoute for Azure, and Cloud Interconnect for GCP.
 
 3. Branch Office/Retail
 
@@ -106,21 +106,6 @@ Shift Left is a practice intended to find and prevent defects early in the softw
 
 ###  
 
-
-
-F5 Bot Defense
- - deploy VIP
- - configure policy
-MCN
-Private link
-  -
-AppAstack - branch/retail
-
-
-Multi-CDN
-Terraform
-CICD
-
-
+## References
 
 * https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense#connectors
