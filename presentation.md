@@ -32,7 +32,7 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 
 * F5 Distributed cloud has 31 physical data center locations known as "Regional Edge's", or point of presence, and are located in every major region around the world, all colocated in Equinex Metal. Akamai takes a different approach, rather than leveraging BGP peers, they currently have 4,100 physical locations, otherwise known as PoPs (Points of Presence). Where F5 Distributed Cloud has taken the approach of using BGP to build the most robust cloud service provider network, Akamai's business is focused on building real estate with their massive number of PoPs.
 
-* All additional software subscriptions features such as Web App and API protections, containerized workloads distribution, intelligent DNS etc. are built natively into the F5 Distributed Cloudplatform, whereas Akamai has acquired many different products that operate independantly each with their own account management, administration interface and disconnected managemnt API's. The F5 Distributed Cloud Bot Defense, which provides security to protect a website from bots, fake users, and unauthorized transactions, is a service that is also made available through competitors product such as AWS CloudFront, [Cloudflare](https://www.youtube.com/watch?v=eg9jke6uOLE), our [BIG-IP](https://www.youtube.com/watch?v=JD43GNFKtpU) product line, or other competitors products. F5 Distributed Cloud provides a single pane of glass UI and API management, unified RBAC across all features, and a consistent feature set across all Regional Edges.
+* All additional software subscriptions features such as Web App and API protections, containerized workloads distribution, intelligent DNS etc. are built natively into the F5 Distributed Cloud platform, whereas Akamai has acquired many different products that operate independently each with their own account management, administration interface and disconnected managemnt API's. The F5 Distributed Cloud Bot Defense, which provides security to protect a website from bots, fake users, and unauthorized transactions, is a service that is also made available through competitors product such as AWS CloudFront, [Cloudflare](https://www.youtube.com/watch?v=eg9jke6uOLE), our [BIG-IP](https://www.youtube.com/watch?v=JD43GNFKtpU) product line, or other competitors products. F5 Distributed Cloud provides a single pane of glass UI and API management, unified RBAC across all features, and a consistent feature set across all Regional Edges.
 
 ### F5 Distributed Cloud
 
@@ -58,7 +58,7 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 
 ![F5 Distributed Cloud Bot Defense Gartner Peer Review](./images/gartner-peer-report.png)
 
-* F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly becuase of the ease of use, since all of the UI and API management is a single consolidated interface.
+* F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly because of the ease of use, since all of the UI and API management is a single consolidated interface.
 
 ## [F5 Distributed Cloud Bot Defense](https://www.youtube.com/watch?v=qofQozTpqo4)
 
@@ -77,6 +77,14 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 2. Create Bot Policy
 
 ![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/create-policy.png)
+
+* Create an App endpoint
+
+* Specify the method to POST on both protocol on any domains, and for Path matching we can do prefix, regex or exact path, and for the actions you want to change it from Flag to Block.
+
+* So you can do things like enable carding against a payment page and credential stuffing against other pages.
+
+* From there we can specify how we want to inject the Javascript, which usually after the HEAD tag, but it can be in a script or after the title tag.
 
 * It's best practice to activate Bot Defense on sensitive URLs, like login forms, using regex to detect patterns in these URLs.
 
