@@ -56,33 +56,33 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 
 ### Ease of Use
 
-![F5 Distributed Cloud Bot Defense Gartner Peer Review](./images/gartner-peer-report.png)
+  ![F5 Distributed Cloud Bot Defense Gartner Peer Review](./images/gartner-peer-report.png)
 
-F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly becuase of the ease of use, since all of the UI and API management is a single consolidated interface.
+  * F5 Distributed Cloud Bot Defense scores higher in Gartner Peer reviews, mostly becuase of the ease of use, since all of the UI and API management is a single consolidated interface.
 
-## F5 Distributed Cloud Bot Defense
+## [F5 Distributed Cloud Bot Defense](https://www.youtube.com/watch?v=qofQozTpqo4)
 
-![F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
+  ![F5 Distributed Cloud Bot Defense Infographic ](./images/f5-distributed-cloud-bot-defense-infographic.png)
 
-[F5 Distributed Cloud Bot Defense](https://www.youtube.com/watch?v=qofQozTpqo4&t=42s) is an anti automation product which uses JavaScript and API calls to collect telemetry. Both Akamai and F5 have competetive industry leading Bot Protection features including credential stuffing attack, fake account, fraud, application layer DDoS, and financial aggregator protection.
+  * F5 Distributed Cloud Bot Defense is an anti-automation solution that employs JavaScript and API calls for telemetry collection. Both Akamai and F5 offer leading bot protection features, including defenses against credential stuffing, fake accounts, fraud, application layer DDoS, and financial aggregator threats.
 
-1. Enable Bot Defense
+  1. Enable Bot Defense
 
-![F5 Distributed Cloud Bot Defense Enable Bot Defense](./images/bot-protection-enable.png)
+    ![F5 Distributed Cloud Bot Defense Enable Bot Defense](./images/bot-protection-enable.png)
 
-After logging in to the F5 Distributed Cloud console, and enabling Advanced Bot Defense, you will find the security features natively integrated into the HTTP load balancer. There is no additional portal to log into, everything is integrated into a single consolidated cloud native platform.
+    * After logging into the F5 Distributed Cloud console and enabling Advanced Bot Defense, you'll find the security features integrated within the HTTP load balancer, eliminating the need for an additional portal and offering a unified, cloud-native platform experience. 
 
-2. Create Bot Policy
+  2. Create Bot Policy
 
-![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/create-policy.png)
+    ![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/create-policy.png)
 
-It's a best practice to enable Bot Defense on sensitive URL's such as a login form, but you can use regex to identify patterns in sensitive URLs
+    * It's best practice to activate Bot Defense on sensitive URLs, like login forms, using regex to detect patterns in these URLs.
 
-3. Bot Defense Reporting
+  3. Bot Defense Reporting
 
-![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/bot-defense-reporting.png)
+    ![F5 Distributed Cloud Bot Defense Create Bot Policy](./images/bot-defense-reporting.png)
 
-After applying the Bot Policy, launch a simulated attack using a testing tool such as Selenium, and then view the analytics in the F5 Distributed Cloud portal.
+    * After applying the Bot Policy, launch a simulated attack using a testing tool such as Selenium, and then view the analytics in the F5 Distributed Cloud portal.
 
 ## Deployment Options
 
@@ -96,19 +96,19 @@ After applying the Bot Policy, launch a simulated attack using a testing tool su
 
 ![Multi-CDN](./images/multi-cdn.png)
 
-The answer is to use an intelligent DNS service which provides GSLB load balancing balancing so that we can safely introduce an additional A record into the DNS. By leveraging GSLB functionality into the DNS for the ACME Corp website, it will make it possible to use multiple CDN services. Different GSLB algorithms can be configured to provide active-standby, geographically based DNS resolving decisions, or making DNS resolver decisions based on health checks, which might detect outages or problems with a primary CDN. Introducing GSLB to the internet facing DNS resolution for ACME Corp website will make it so that both the Akamai CDN and the F5 Distributed Cloud CDN are possible
+  * To seamlessly integrate an additional A record, an intelligent DNS service with Global Server Load Balancing (GSLB) is essential. This approach allows the ACME Corp website to utilize multiple CDN services by incorporating GSLB into its DNS. GSLB can be configured for various strategies such as active-standby, geographic-based resolution, or health check-based decisions to manage issues with a primary CDN. Implementing GSLB for ACME Corp's DNS resolution enables the concurrent use of both Akamai and F5 Distributed Cloud CDNs.
 
 2. Regional Edge Campus Area Private Network
 
 ![Campus Area Private Network](./images/campus-area-networking.png)
 
-A unique feature of the F5 Distributed Cloud platform which is not available from Akamai, is that the F5 Distributed Cloud Regional Edges can be configured to advertise services on the same private Network As a Service providers. This means that the F5 Distributed Cloud IP anycast services that are available on the internet, are also the exact same services that can be advertised to internal only campus area type of networks.
+  * A distinctive feature of the F5 Distributed Cloud platform, not offered by Akamai, is its ability to advertise services on the same private Network As a Service providers through the F5 Distributed Cloud Regional Edges. This enables the F5 Distributed Cloud's IP anycast services, accessible on the internet, to be identical to those advertised on internal, campus-type networks.
 
 3. AppStack in Virtual Private Cloud
 
 ![appstack](./images/appstack-vpc.png)
 
-  * The F5 Distributed Cloud software that runs in the Equinex Regional Edge locations, can be deployed as a virtual machine into your VPC's, which can eliminate the need for complex transit gateways, expensive and complex firewall virtual machines. The Appstack instances form redundant encrypted tunnels with the F5 Distributed Cloud Regional Edges bypassing the requirement to have the VPC to expose public IP addresses natting towards origin servers.
+  * The F5 Distributed Cloud software, operational in Equinix Regional Edge locations, can be deployed as a virtual machine into your VPCs, removing the necessity for intricate transit gateways and costly, complex firewall virtual machines. Appstack instances establish redundant encrypted tunnels with F5 Distributed Cloud Regional Edges, eliminating the need for VPCs to expose public IP addresses for NATting to origin servers.
 
   * IP Overlap is often a challenge: With F5 Distributed Cloud Appstack proxies, we can service all the Masqueriding and NAT requirements.
 
@@ -116,27 +116,27 @@ A unique feature of the F5 Distributed Cloud platform which is not available fro
 
 ![AppStack Managed Kubernetes](./images/appstack-managed-kubernetes.png)
 
-An F5 Distributed Cloud instance can also be deployed as a managed kubernetes platform either as a virtual machine or onto bare metal. Appstack managed kubernetes is able to leverage high performance GPU in public cloud, or even when its deployed into hardware in remote locations or retail space. Computationally intensive containerized workloads running in Appstack managed kubernetes can leverage GPU's. One example is that many organizations are now purchasing and deploying tons of GPU for use with running privately available AI service which are running open source LLM's.
+  * An F5 Distributed Cloud instance can be deployed as a managed Kubernetes platform on both virtual machines and bare metal. Appstack-managed Kubernetes can utilize high-performance GPUs in public clouds or on-premises hardware in remote or retail locations. This enables computationally intensive containerized workloads to leverage GPUs, supporting the increasing trend of organizations deploying GPUs for private AI services running open-source Large Language Models (LLMs).
 
-  * The F5 Distributed Cloud Appstack Managed Kubernetes can be distributed across multiple physical or virtual locations. F5 fully manages the kubernetes stack, while the local Kubernetes administration remains the same, where an administrator can export a kubectl file, so the interaction with managed kubernetes does not change for devops teams, their existing workflows will continue to operate the same as long as they are given the kubectl authentication file.
+  * The F5 Distributed Cloud Appstack Managed Kubernetes can span multiple physical or virtual locations, with F5 managing the Kubernetes stack. Local Kubernetes administration stays consistent, allowing administrators to export a kubectl file. This ensures DevOps teams' interaction with managed Kubernetes and their existing workflows remain unchanged, provided they have the kubectl authentication file.
 
 ## Shift Left Security
 
 ![Shift Left Security](./images/shift-left-security.png)
 
-Shift Left is a practice intended to find and prevent defects early in the software delivery process. The idea is to improve quality by moving tasks to the left as early in the lifecycle as possible. Shift Left testing means testing earlier in the software development process, and this lends itself to adopting DevOps practices.
+  * Shift Left is a strategy aimed at identifying and mitigating defects early in the software delivery cycle by shifting tasks earlier in the lifecycle to enhance quality. This approach encourages early testing and supports the adoption of DevOps practices.
 
 ### GitOps SDLC
 
 ![GitOps SDLC](./images/SDLC.png)
 
-* A GitOps workflow for shift-left security integrates automated security measures early in the development lifecycle by managing infrastructure and application configurations as code in Git. An important aspect to having multiple developers is the ability to create multiple namespaces. Typically a namespace might be used to create departmental separation of resources, but its often used in the devlopement lifecycle. When a developer creates new feature branch in Git, and automation can be associated that will create a namespace of the same name as the git feature branch, and then all the CICD automated testing can run against the devlopement namespace, and when the pull request is approved, the automation will then destroy the git development branch as well as destroying the development namespace in F5 Distributed Cloud.
+  * A GitOps workflow with shift-left security automates security integration early in the development lifecycle by treating infrastructure and app configurations as code in Git. This approach facilitates collaboration among developers by enabling the creation of multiple namespaces, often used for departmental resource separation or throughout the development process. For instance, when a developer initiates a new feature branch in Git, automation can generate a corresponding namespace. This allows CI/CD testing to occur within this development namespace. Upon pull request approval, the automation will remove both the Git development branch and its associated namespace in F5 Distributed Cloud.
 
 ### Infrastructure as Code
 
 ![Infrastructure as Code](./images/terraform-provider.png)
 
-The F5 Distributed Cloud platform can be automated using the REST API, either directly using the RBAC enforced token authentication. Tokens can be incorporated into existing CICD pipelines. There are official F5 Github repositories with terraform examples for creating infrastructure as code.
+  * The F5 Distributed Cloud platform supports automation via the REST API with RBAC-enforced token authentication, allowing for integration into existing CI/CD pipelines. Official F5 GitHub repositories provide Terraform examples for infrastructure as code.
 
 ### CLI vesctl
 
@@ -145,3 +145,7 @@ The F5 Distributed Cloud platform can be automated using the REST API, either di
 ## References
 
 * https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense
+
+* https://docs.cloud.f5.com/docs/quick-start/bot-defense-quick-start
+
+* https://docs.cloud.f5.com/docs/
