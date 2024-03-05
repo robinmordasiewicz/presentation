@@ -146,6 +146,8 @@ Robin Mordasiewicz, a Sales Engineer at F5, will conduct a 30-minute presentatio
 
 * https://docs.cloud.f5.com/docs/how-to/advanced-security/bot-defense
 
+* https://docs.cloud.f5.com/docs-v2/bot-defense/how-tos/configure-bot-defense
+
 * https://docs.cloud.f5.com/docs/quick-start/bot-defense-quick-start
 
 * https://docs.cloud.f5.com/docs/
